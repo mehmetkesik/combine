@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/combine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine_attributes/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine_attributes/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine_cli/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine_cli/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.combine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combine_cli/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -60,6 +47,7 @@
       <updated>1630955119340</updated>
       <workItem from="1630955121147" duration="828000" />
       <workItem from="1630956000731" duration="69000" />
+      <workItem from="1630956084141" duration="341000" />
     </task>
     <servers />
   </component>
