@@ -1,0 +1,52 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CargoProjects\">\r\n    <cargoProject FILE=\"$PROJECT_DIR$/Cargo.toml\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e24a5c35-d004-486e-a90d-fc9d1a2f18af\" name=\"Changes\" comment=\"first commit\">\r\n      <change afterPath=\"$PROJECT_DIR$/combine_cli/src/README.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MacroExpansionManager\">\r\n    <option name=\"directoryName\" value=\"qb8ga3km\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1xmL3CgtDBpOWAp0YweF7fDu25q\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"org.rust.cargo.project.model.PROJECT_DISCOVERY\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.general\" />\r\n  </component>\r\n  <component name=\"RustProjectSettings\">\r\n    <option name=\"toolchainHomeDirectory\" value=\"$USER_HOME$/.cargo/bin\" />\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e24a5c35-d004-486e-a90d-fc9d1a2f18af\" name=\"Changes\" comment=\"\" />\r\n      <created>1630955119340</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1630955119340</updated>\r\n      <workItem from=\"1630955121147\" duration=\"828000\" />\r\n      <workItem from=\"1630956000731\" duration=\"69000\" />\r\n      <workItem from=\"1630956084141\" duration=\"341000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ec9e1c057e500227183ef49994db1d06e0fda131)
++++ b/.idea/workspace.xml	(date 1630956980732)
+@@ -5,7 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment="first commit">
+-      <change afterPath="$PROJECT_DIR$/combine_cli/src/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -32,6 +33,11 @@
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+     <property name="settings.editor.selected.configurable" value="preferences.general" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\liver\Projects\combine" />
++    </key>
+   </component>
+   <component name="RustProjectSettings">
+     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+@@ -47,8 +53,16 @@
+       <updated>1630955119340</updated>
+       <workItem from="1630955121147" duration="828000" />
+       <workItem from="1630956000731" duration="69000" />
+-      <workItem from="1630956084141" duration="341000" />
++      <workItem from="1630956084141" duration="889000" />
+     </task>
++    <task id="LOCAL-00001" summary="first commit">
++      <created>1630956486162</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1630956486162</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+diff --git a/README.md b/README.md
+deleted file mode 100644
