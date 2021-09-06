@@ -6,7 +6,7 @@ use combine_attributes::*;
 
 #[combine_fn]
 fn index(){
-
+  //inanamıyorum yaaa
 }
 
 fn main() {
