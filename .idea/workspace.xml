@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine_cli/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine_cli/src/main.rs" afterDir="false" />
     </list>
@@ -62,7 +61,7 @@
       <workItem from="1630955121147" duration="828000" />
       <workItem from="1630956000731" duration="69000" />
       <workItem from="1630956084141" duration="1087000" />
-      <workItem from="1630957218888" duration="515000" />
+      <workItem from="1630957218888" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1630956486162</created>
@@ -71,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630956486162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1630957763602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630957763602</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1630957866844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630957866844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
