@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "combine",
+    "combine_attributes",
+    "combine_cli",
+]

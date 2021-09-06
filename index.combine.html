@@ -1,0 +1,43 @@
+# @m must be a json object
+
+@extends("apply_layout")
+
+@foreach(let product in @m.products)
+	<div>
+	@if(product.name)
+		<p>@print(product.name)</p>
+	@end
+	</div>
+@end
+
+@if(@m.product.id == 0)
+
+@end
+
+@for(let i = 0;i < @m.products.length();i++)
+
+@end
+
+@var(x,5) # @var(variable_name,primitive_types_or_known_types)
+
+@print(x)
+
+@var(x,@get("heyy"))
+
+@http_get("http://localhost/")
+@http_post("http://localhost/",@m.json_object)
+
+@es_var(my_json,@m.products) #define a es variable => let my_json = [{id:5,x:"y"},{id:3,x:"a"}]
+@es_var(my_number,5)
+@es_var(my_str,"helloooo")
+@es_var(my_bool,true)
+
+<script>
+    console.log(my_json[0].products.name)
+</script>
+
+@section("my_section")
+
+@end
+
+@yield("include-section")
