@@ -3,28 +3,38 @@
 #![allow(dead_code)]
 
 use combine_attributes::*;
+use combine::*;
 
 #[combine_fn]
-fn index() {
-    println!("index çalıştı.");
+fn index(){
 }
 
 fn main() {
-    let a = A { body: "xyz".to_string() };
-    println!("Hello, world! {}", a.add_br("heyyyy".to_string(), 5, 7.5));
+    combine::Combine::run(||{
+        fn x() {
+
+        }
+    });
 }
 
 #[combine_type]
 struct A {
-    body: String,
+    body:String,
 }
 
 impl A {
     #[combine_fn]
-    fn add_br(&self, render_body: String, i: i32, f: f64) -> String {
-        render_body
+    fn add_br(&self) -> String {
+        "<br/>".to_string()
     }
 
     #[combine_fn]
-    fn send_http_get_request(&self, path: String) {}
+    fn get(&self, path: String) -> bool {
+        true
+    }
+
+    #[combine_fn]
+    fn x_if(&self,path: String) -> String {
+        path
+    }
 }
