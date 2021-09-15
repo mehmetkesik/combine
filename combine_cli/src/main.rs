@@ -2,39 +2,40 @@
 #![allow(unused_variables)]
 #![allow(dead_code)]
 
-use combine_attributes::*;
-use combine::*;
+extern crate reqwest;
 
-#[combine_fn]
-fn index(){
-}
+use combine_attributes::*;
+use combine::types::*;
 
 fn main() {
-    combine::Combine::run(||{
-        fn x() {
+    let mut combine = Combine::new("@if(@get('link')) <div> </div> @add_br(3) @end".to_string());
 
-        }
+    combine.add("add_br", |context: CombineContext| -> String {
+        "<br/>".to_string() //ct.params.get(0).to_string()
     });
+
+    combine.add("get", |context: CombineContext| -> String {
+        //let source = context.params.get(0).to_string();
+
+        match reqwest::blocking::get("https://www.google.com.tr/") {
+            Ok(response) => {
+                if response.status() == reqwest::StatusCode::OK {
+                    return response.text().unwrap();
+                } else {
+                    println!("Not okey request, response status code: {}", response.status());
+                }
+            }
+            Err(_) => panic!("Error while request get")
+        }
+        println!("Unknown error");
+        "".to_string()
+    });
+
+    combine.add("js_var", js_var);
+
+    combine.run();
 }
 
-#[combine_type]
-struct A {
-    body:String,
-}
-
-impl A {
-    #[combine_fn]
-    fn add_br(&self) -> String {
-        "<br/>".to_string()
-    }
-
-    #[combine_fn]
-    fn get(&self, path: String) -> bool {
-        true
-    }
-
-    #[combine_fn]
-    fn x_if(&self,path: String) -> String {
-        path
-    }
+fn js_var(context: CombineContext) -> String {
+    "var _v1 = [1,2,3,4,5];".to_string()
 }

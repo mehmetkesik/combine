@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/combine/src/functions.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combine/src/types.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_2021_22_39_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_2021_22_39__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/combine/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine_cli/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/combine_cli/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine_cli/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine_cli/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="OPTIONS">
@@ -23,6 +37,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="qb8ga3km" />
@@ -63,7 +85,11 @@
       <workItem from="1630956000731" duration="69000" />
       <workItem from="1630956084141" duration="1087000" />
       <workItem from="1630957218888" duration="910000" />
-      <workItem from="1631115210079" duration="268000" />
+      <workItem from="1631115210079" duration="2167000" />
+      <workItem from="1631122669303" duration="1797000" />
+      <workItem from="1631125654518" duration="594000" />
+      <workItem from="1631550203628" duration="3359000" />
+      <workItem from="1631563174654" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1630956486162</created>
@@ -93,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630958022424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1631115492900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631115492900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

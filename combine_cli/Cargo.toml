@@ -8,3 +8,4 @@ edition = "2018"
 [dependencies]
 combine = {path="../combine"}
 combine_attributes = {path="../combine_attributes"}
+reqwest = { version = "0.11", features = ["blocking", "json"] }
