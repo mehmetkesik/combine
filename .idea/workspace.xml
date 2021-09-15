@@ -4,16 +4,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/combine/src/functions.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine/src/types.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_2021_22_39_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_2021_22_39__Changes_.xml" beforeDir="false" />
+    <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/combine/src/combine_context.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combine/src/fn_params.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combine/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/combine/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine/src/functions.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/functions.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combine_cli/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/combine_cli/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine/src/types.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/combine.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine_cli/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine_cli/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +59,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/liver/Projects/combine/combine/src/analysis.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/liver/Projects/combine/combine/src/combine.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/liver/Projects/combine/combine/src/combine_context.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/liver/Projects/combine/combine/src/fn_params.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/liver/Projects/combine/combine/src/functions.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/liver/Projects/combine/combine/src/types.rs" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
@@ -90,6 +93,7 @@
       <workItem from="1631125654518" duration="594000" />
       <workItem from="1631550203628" duration="3359000" />
       <workItem from="1631563174654" duration="2136000" />
+      <workItem from="1631732759364" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1630956486162</created>
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631115492900</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1631732807313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631732807313</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +160,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

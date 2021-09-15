@@ -5,10 +5,10 @@
 extern crate reqwest;
 
 use combine_attributes::*;
-use combine::types::*;
+use combine::{combine::*, combine_context::*};
 
 fn main() {
-    let mut combine = Combine::new("@if(@get('link')) <div> </div> @add_br(3) @end".to_string());
+    let mut combine = Combine::new("@if(@get('link')) <div> </div> @add_br(3) @end");
 
     combine.add("add_br", |context: CombineContext| -> String {
         "<br/>".to_string() //ct.params.get(0).to_string()
@@ -17,18 +17,20 @@ fn main() {
     combine.add("get", |context: CombineContext| -> String {
         //let source = context.params.get(0).to_string();
 
-        match reqwest::blocking::get("https://www.google.com.tr/") {
+        return match reqwest::blocking::get("https://www.google.com.tr/") {
             Ok(response) => {
                 if response.status() == reqwest::StatusCode::OK {
                     return response.text().unwrap();
                 } else {
                     println!("Not okey request, response status code: {}", response.status());
+                    "".to_string()
                 }
             }
-            Err(_) => panic!("Error while request get")
-        }
-        println!("Unknown error");
-        "".to_string()
+            Err(e) => {
+                println!("Error while request get: {}", e.to_string());
+                "".to_string()
+            }
+        };
     });
 
     combine.add("js_var", js_var);
