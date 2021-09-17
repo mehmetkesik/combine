@@ -2,6 +2,7 @@
 #![allow(unused_variables)]
 #![allow(dead_code)]
 
+
 extern crate reqwest;
 
 use combine_attributes::*;
@@ -38,6 +39,6 @@ fn main() {
     combine.run();
 }
 
-fn js_var(context: CombineContext) -> String {
+fn js_var(_context: CombineContext) -> String {
     "var _v1 = [1,2,3,4,5];".to_string()
 }

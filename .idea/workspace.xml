@@ -4,13 +4,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/combine/src/combine_context.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combine/src/fn_params.rs" afterDir="false" />
+    <list default="true" id="e24a5c35-d004-486e-a90d-fc9d1a2f18af" name="Changes" comment="structural adjustments were made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine/src/combine.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/combine.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine/src/functions.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/functions.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combine/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combine/src/types.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine/src/combine.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine_attributes/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine_attributes/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combine_cli/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/combine_cli/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,8 @@
       <workItem from="1631125654518" duration="594000" />
       <workItem from="1631550203628" duration="3359000" />
       <workItem from="1631563174654" duration="2136000" />
-      <workItem from="1631732759364" duration="2889000" />
+      <workItem from="1631732759364" duration="2975000" />
+      <workItem from="1631870913186" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1630956486162</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631732807313</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="structural adjustments were made">
+      <created>1631735946293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631735946293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +167,7 @@
     </ignored-roots>
     <MESSAGE value="first commit" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="structural adjustments were made" />
+    <option name="LAST_COMMIT_MESSAGE" value="structural adjustments were made" />
   </component>
 </project>

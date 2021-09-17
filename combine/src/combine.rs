@@ -36,5 +36,7 @@ impl Combine {
         self.analysis();
     }
 
-    fn analysis(&mut self) {}
+    fn analysis(&mut self) {
+
+    }
 }
