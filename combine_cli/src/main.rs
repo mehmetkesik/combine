@@ -9,7 +9,7 @@ use combine_attributes::*;
 use combine::{combine::*, combine_context::*};
 
 fn main() {
-    let mut combine = Combine::new("@if(@get('link')) <div> </div> @add_br(3) @end");
+    let mut combine = Combine::new("demo.combine.html");
 
     combine.add("add_br", |context: CombineContext| -> String {
         "<br/>".to_string() //ct.params.get(0).to_string()

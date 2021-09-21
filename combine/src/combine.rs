@@ -3,6 +3,7 @@
 
 use std::collections::HashMap;
 use crate::{combine_context::*, functions::*};
+use std::fs;
 
 pub struct Combine {
     fn_map: HashMap<&'static str, fn(CombineContext) -> String>,
@@ -11,9 +12,10 @@ pub struct Combine {
 
 impl Combine {
     pub fn new(path: &str) -> Combine {
+        let contents = fs::read_to_string(path).expect("Something went wrong reading the file");
         let mut combine = Combine {
             fn_map: HashMap::new(),
-            body: path.to_string(),
+            body: contents,
         };
         add_default_functions(&mut combine);
         combine
@@ -37,6 +39,8 @@ impl Combine {
     }
 
     fn analysis(&mut self) {
-
+        for c in self.body.chars() {
+            print!("{}", c);
+        }
     }
 }
